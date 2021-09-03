@@ -4,9 +4,7 @@ from rune_solver import find_arrow_directions
 from interception import *
 from game import Game
 from player import Player
-from AutoHotPy import AutoHotPy
-from InterceptionWrapper import *
-from recorded_macro import *
+
 
 
 def bind(context):
@@ -104,10 +102,6 @@ if __name__ == "__main__":
 
         p.go_to(target_left)
 
-        auto = AutoHotPy()
-        auto.registerExit(auto.ESC,exitAutoHotKey)
-        auto.registerForKeyDown(auto.F1,recorded_macro)
-        auto.start()
 
 # buff
 
