@@ -16,7 +16,7 @@ SC_DECIMAL = {
 ",": 51, ".": 52, "/": 53, "RSHIFT": 54, "PrtSc": 55, "ALT": 56, "SPACE": 57, "CAPS": 58,
 # something on this line bugged out the ms script. the sript would press when start.
 # "F1": 59, "F2": 60, "F3": 61, "F4": 62, "F5": 63, "F6": 64, "F7": 65, "F8": 66, "F9": 67, 
-"F10": 68, "NUM": 69, "SCROLL": 70, "HOME": 71, "PGUP": 73, "-": 74, 
+# "F10": 68, "NUM": 69, "SCROLL": 70, "HOME": 71, "PGUP": 73, "-": 74, 
 "CENTER": 76,  "+": 78, "END": 79,  "PGDN": 81, "INS": 82, "DEL": 83 
 
 # original scan code
